@@ -1,5 +1,29 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+  
+li {
+	float: left;
+}
+  
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 19px 143.89px;
+	text-decoration: none;
+	font-size: 20px;
+}
+  
+li a:hover {
+	background-color: #111;
+}
+
 .background {
-	color: red;
 	background-color: gray;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -15,11 +39,36 @@
 	height: 100vh;
 }
 
-.login {
-	
-}
-
 .banner {
 	background-image: url("welcome.jpg");
 	width: 1000px;
+	height: 320px;
+}
+
+.active {
+	background-color: gray;
+}
+
+.bmivalues {
+	font-size: 30px;
+	background-color: white;
+	border-color: black;
+	border-style: double;
+	border-width: 10px;
+	width: 500px;
+	height: 400px;
+}
+
+.aboutimg1 {
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 5px;
+	float: left;
+}
+
+.aboutimg2 {
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 5px;
+	float: center;
 }

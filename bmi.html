@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<script src="login.js"></script>
+<link rel="stylesheet" href="login.css">
+	<center>
+		<div class="background">
+			<div class="midpage">
+				<head>
+					<div class="banner"></div>
+					<ul>
+						<li><a class="active" href="bmi.html">BMI</a></li>
+						<li><a href="login.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+				</head>
+				<body>
+					<h1>Body Mass Index Calculator</h1>
+					<p style="font-size: 20px;">Enter your height: <input type="text" id="height"/>
+						<select type="multiple" id="heightunits">
+							<option value="metres" selected="selected">metres</option>
+							<option value="inches">inches</option>
+						</select>
+						 </p>
+					<p style="font-size: 20px;">Enter your weight: <input type="text" id="weight"/>
+						<select type="multiple" id="weightunits">
+							<option value="kg" selected="selected">kilograms</option>
+							<option value="lb">pounds</option>
+						</select>
+					</p>
+					<input type="submit" value="Calculate" onclick="computeBMI();">
+					<h1>Your BMI is: <span id="output">?</span></h1>
+					<h2>This means you are: <span id="comment"> ?</span> </h2>
+					<div class="bmivalues">
+						<ol style="list-style-type: disc;">
+							<li>Underweight: 18.5 or smaller</li><br>
+							<li>Normal: 18.5 – 24.9</li><br>
+							<li>Obese: 25 – 29.9</li><br>
+							<li>Overweight: 30 or greater</li><br>
+							<br>
+							<p> In case your result looked way too unexpected, make sure<br>
+								your units were inputed correctly!<br>Eg. 1.80 metres, not 180
+							</p>
+						</ol>
+					</div>
+					<br>
+					<b><p style="font-size: 15px;">This program was done with JavaScript / msuarez- 42 Hive School / Helsinki Finland</p></b>
+				</body>
+			</div>
+		</div>
+	</center>
+</html>
