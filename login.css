@@ -20,5 +20,6 @@
 }
 
 .banner {
+	background-image: url("welcome.jpg");
 	width: 1000px;
 }

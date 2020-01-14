@@ -11,7 +11,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nameErr = "Name is required";
   } else {
     $name = test_input($_POST["name"]);
-    // check if name only contains letters and whitespace
     if (!preg_match("/^[a-zA-Z0-9]*$/",$name)) {
       $nameErr = "Only letters and numbers allowed!";
     }
@@ -21,7 +20,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $passwordErr = "Password is required";
   } else {
     $password = test_input($_POST["password"]);
-    // check if e-mail address is well-formed
     if (!preg_match("/^[a-zA-Z0-9@]*$/",$password)) {
       $passwordErr = "Only letters and numbers allowed!";
     }
