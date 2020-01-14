@@ -1,0 +1,24 @@
+.background {
+	color: red;
+	background-color: gray;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.midpage {
+	background-color: white;
+	border-color: black;
+	border-width: 5px;
+	border-style: solid;
+	float: center;
+	width: 1000px;
+	height: 100vh;
+}
+
+.login {
+	
+}
+
+.banner {
+	width: 1000px;
+}
