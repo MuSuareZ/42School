@@ -37,6 +37,11 @@ li a:hover {
 	float: center;
 	width: 1000px;
 	height: 100vh;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	min-width: 1000px;
+	min-height: 1400px;
 }
 
 .banner {
@@ -59,16 +64,38 @@ li a:hover {
 	height: 400px;
 }
 
+.aboutimg {
+	text-align: center;
+	padding: 20px;
+}
+
 .aboutimg1 {
 	border-radius: 50%;
 	border-style: solid;
 	border-width: 5px;
-	float: left;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .aboutimg2 {
 	border-radius: 50%;
 	border-style: solid;
 	border-width: 5px;
-	float: center;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menubar {
+	border-style: solid;
+	border-width: 4px;
+	border-left: black;
+	border-right: black;
+}
+
+.aboutlist {
+	text-align: center;
+	padding: 0px 250px;
+	font-size: 18px;
 }
