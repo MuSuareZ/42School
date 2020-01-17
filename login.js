@@ -17,7 +17,7 @@ function computeBMI()
 	else if (output >= 18.5 && output <= 25)
 	document.getElementById("comment").innerText = "Normal";
 	else if (output >= 25 && output <= 30)
-	document.getElementById("comment").innerText = "Obese";
-	else if (output > 30)
 	document.getElementById("comment").innerText = "Overweight";
+	else if (output > 30)
+	document.getElementById("comment").innerText = "Obese";
 }
